@@ -1,6 +1,7 @@
 ## Intro
 
 Stellar account as a service challenge
+Also available on https://stellar-bounty-l2.oralkin.repl.co
 
 ## How it works
 
