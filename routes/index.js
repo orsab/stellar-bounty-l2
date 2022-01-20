@@ -4,8 +4,10 @@ const info = require('./info')
 const pay = require('./pay')
 const friedbot = require('./friendbot')
 const paymentsStream = require('./paymentsStream')
+const init = require('./init')
 
 module.exports = (app, db) => {
+    init(app, db)
     register(app, db)
     login(app, db)
     info(app, db)

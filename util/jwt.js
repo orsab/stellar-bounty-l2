@@ -7,6 +7,7 @@ const jwt = () => {
             // public routes that don't require authentication
             '/login',
             '/register',
+            '/',
         ]
     });
 }
