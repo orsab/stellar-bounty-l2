@@ -42,7 +42,7 @@ module.exports = (app, db) => {
             res.status(400).send({error:e.message})
         }
         else if(e.message.includes('SQLITE_CONSTRAINT')){
-            res.status(409).send({error:e.message})
+            res.status(409).send({error:'Username already exists'})
         }
         else{
             res.status(500).send({error:e.message})
