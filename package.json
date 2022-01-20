@@ -19,5 +19,8 @@
     "jsonwebtoken": "^8.5.1",
     "sqlite-async": "^1.1.2",
     "stellar-sdk": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
