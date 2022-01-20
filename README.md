@@ -9,7 +9,7 @@ You as a custodian wallet inside the Crypto exchange can manage user's balances 
 - Register  POST `/register`
 - Login     POST `/login`
 - Pay       POST `/post`
-- Info      POST `/info`
+- Info      GET  `/info`
 - Friendbot POST `/friendbot` - only for test purpose
 
 ## Start the project
