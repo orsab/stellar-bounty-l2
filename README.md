@@ -4,7 +4,7 @@ Stellar account as a service challenge
 
 Check in repl.it here >>
 
-<a hrfe="https://replit.com/@OrAlkin/stellar-bounty-l2"><img src="https://cdn.freebiesupply.com/logos/large/2x/replit-logo-svg-vector.svg" width="100">
+<a href="https://replit.com/@OrAlkin/stellar-bounty-l2"><img src="https://cdn.freebiesupply.com/logos/large/2x/replit-logo-svg-vector.svg" width="100">
 </a>
 
 ## How it works
