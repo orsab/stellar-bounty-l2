@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "cp .env.exmple .env && npm start"
+run = "cp .env.example .env && npm start"
