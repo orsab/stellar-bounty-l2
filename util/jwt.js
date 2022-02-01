@@ -8,7 +8,7 @@ const jwt = () => {
             '/login',
             '/register',
             '/',
-        ]
+        ],
     });
 }
 

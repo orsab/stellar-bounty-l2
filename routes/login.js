@@ -34,6 +34,8 @@ module.exports = (app, db) => {
         .then(({password, ...user}) => {
             const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET || 'JWT_SECRET', { expiresIn: '7d' });
             user.access_token = token
+            user.balance = user.balance.toFixed(7)
+
             res.status(200).send({status:'ok', data:user})
         })
         .catch(e => {
